@@ -1,0 +1,32 @@
+{
+  "name": "@legalblocks/task-builder",
+  "version": "1.0.0",
+  "description": "Assigns segments to raters",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "legalblocks": {
+    "package_id": "lawnotation.task-builder",
+    "manifest": "package.manifest.json",
+    "execution_type": "frontend",
+    "provides_screen": "lawnotation.task"
+  },
+  "main": "TaskBuilder.vue",
+  "files": [
+    "package.manifest.json",
+    "src",
+    "pages",
+    "*.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"no tests\" && exit 0"
+  },
+  "dependencies": {
+    "@legalblocks/module-runtime": "^0.1.0"
+  },
+  "devDependencies": {
+    "@lawnotation/module-sdk": "^1.0.0",
+    "typescript": "^5.4.0"
+  }
+}
