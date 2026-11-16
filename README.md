@@ -2,12 +2,12 @@
 
 > Assigns segments to raters
 
-**LegalBlocks module package** `lawnotation.task-builder` v1.0.0
+**LegalBlocks module package** `task-builder` v1.0.0
 
-- **Execution**: frontend (provides screen `lawnotation.task`)
+- **Execution**: frontend (provides screen `task`)
 - **Entrypoint**: `TaskBuilder.vue`
-- **Inputs**: `lawnotation.labelset`, `lawnotation.document_set`
-- **Outputs**: `lawnotation.task_spec`
+- **Inputs**: `labelset`, `document-set`
+- **Outputs**: `task-spec`
 - **Artifact I/O**: via [`@legalblocks/module-runtime`](../module-runtime) (configurable adapter: localStorage by default, HTTP endpoint when configured)
 
 

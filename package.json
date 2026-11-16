@@ -6,10 +6,10 @@
   "type": "module",
   "license": "MIT",
   "legalblocks": {
-    "package_id": "lawnotation.task-builder",
+    "package_id": "task-builder",
     "manifest": "package.manifest.json",
     "execution_type": "frontend",
-    "provides_screen": "lawnotation.task"
+    "provides_screen": "task"
   },
   "main": "TaskBuilder.vue",
   "files": [
